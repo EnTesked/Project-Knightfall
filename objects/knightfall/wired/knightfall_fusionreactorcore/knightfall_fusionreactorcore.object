@@ -26,7 +26,8 @@
       "frames": 9,
       "animationCycle": 0.45,
       "spaceScan": 0.1,
-      "anchors": ["bottom"]
+      "anchors": ["bottom"],
+      "collision": "platform"
     },
     {
       "image": "knightfall_fusionreactorcore.png:<color>.on",
@@ -36,7 +37,8 @@
       "frames": 9,
       "animationCycle": 0.45,
       "spaceScan": 0.1,
-      "anchors": ["bottom"]
+      "anchors": ["bottom"],
+      "collision": "platform"
     }
   ],
   "scripts": ["/objects/wired/switch/switch.lua"],
